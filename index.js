@@ -31,6 +31,6 @@ module.exports = class {
     }
 
     apply(compiler) {
-        compiler.plugin('emit', this.compile);
+        compiler.plugin('emit', this.compile.bind(this));
     }
 }
