@@ -1,0 +1,47 @@
+{
+  "name": "react-render-webpack-plugin",
+  "version": "1.0.0",
+  "description": "react serverside rendering for webpack.",
+  "url": "https://github.com/morgondag/react-node-render",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'hello'"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "react-node-render": "0.0.6"
+  },
+  "keywords": [
+    "simple",
+    "react",
+    "react serverside",
+    "severside",
+    "jsx",
+    "render",
+    "renderToStaticMarkup",
+    "renderToString",
+    "reactElement",
+    "React",
+    "createElement",
+    "react-dom",
+    "reactDom",
+    "babel-core/register",
+    "ReactDOMServer",
+    "morgondag",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/owner/project/issues",
+    "email": "kim@morgondag.nu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morgondag/react-render-webpack-plugin.git"
+  },
+  "author": "kim@morgondag.nu",
+  "license": "MIT"
+}
