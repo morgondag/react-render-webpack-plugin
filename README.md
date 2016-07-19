@@ -2,13 +2,13 @@
 react serverside rendering for webpack.
 
 
-```npm i react-render-webpack-plugin```
+```npm i react-render-webpack-plugin --save```
 
 
 ``` webpack.prod.config.js ```:
 
 ```js
-const reactRenderPlugin = require('react-render-webpack-plugin.js');
+const reactRenderPlugin = require('react-render-webpack-plugin');
 module.exports = {
     plugins: [
         new reactRenderPlugin({

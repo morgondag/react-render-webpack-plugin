@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "cheerio": "0.20.0",
-    "react-node-render": "0.0.6"
+    "react-node-render": "0.0.6",
+    "react": "15.2.1",
+    "react-dom": "15.2.1"
   },
   "keywords": [
     "simple",
