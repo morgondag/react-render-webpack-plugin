@@ -10,8 +10,8 @@ module.exports = class {
 
     compile(c, cb) {
         const filePath = process.cwd() + '/' + this.options.file
-        let html = `<div class="app-react">${render(filePath)}</div>`
-        const indexPath = c.outputPath + '/index.html'
+        let html = render(filePath)
+        const indexPath = c.compiler.outputPath + '/index.html'
 
         fs.readFile(indexPath, 'utf8', (err, data) => {
             if (err) {
@@ -25,12 +25,12 @@ module.exports = class {
                 if (err) {
                     throw new Error(err);
                 }
-                callback()
+                cb()
             })
         })
     }
 
     apply(compiler) {
-        compiler.plugin('emit', this.compile.bind(this));
+        compiler.plugin('after-compile', this.compile.bind(this));
     }
 }
