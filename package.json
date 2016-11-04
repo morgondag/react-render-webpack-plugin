@@ -1,6 +1,6 @@
 {
   "name": "react-render-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react serverside rendering for webpack.",
   "url": "https://github.com/morgondag/react-node-render",
   "main": "index.js",
