@@ -35,7 +35,7 @@
     "webpack-plugin"
   ],
   "bugs": {
-    "url": "https://github.com/owner/project/issues",
+    "url": "https://github.com/morgondag/react-render-webpack-plugin/issues",
     "email": "kim@morgondag.nu"
   },
   "repository": {
